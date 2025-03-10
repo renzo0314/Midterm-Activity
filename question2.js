@@ -3,7 +3,7 @@ const app = express(); // Create an Express app
 const port = 3000;
 
 // Define the /test route
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
   res.send ('Express is working! Toring, Lorenz Lord' ); // Send Json response
 });
 
